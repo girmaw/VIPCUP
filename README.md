@@ -14,7 +14,26 @@ Girmaw Abebe and Andrea Cavallaro, "Hierarchical modeling for first-person visio
 
 
 1. Introduction
-A bit of introduction here
+
+The increasing availability of wearable cameras, such as Google Glass and GoPro, en-
+ables the collection of first-person vision (FPV) data for the recognition of activities
+at home, in the office and during sport activities. Ego-centric activity recognition
+has several important applications, which include life-logging and summarization,
+assisted living and activity tracking. The main challenges of FPV activity recogni-
+tion are motion blur, rapid illumination changes and outlier motions (for example
+due to other people captured by the camera). Moreover, the mounting position
+of the camera itself might cause self-occlusions (chest-mounted camera) or spuri-
+ous motions (head-mounted camera). In addition to spatial (appearance), temporal
+(motion) information is crucial to discriminate activities of the camera wearer.
+The 2019 VIP-CUP challenge is on the recognition of office activities in FPV. Office
+activities include person-to-person interactions, such as chatting and handshaking,
+person-to-object interactions, such as using a computer or a whiteboard, as well
+as generic activities such as walking. A dataset of office activities from several
+subjects is provided with the annotation for training and validation purposes (http:
+//www.eecs.qmul.ac.uk/~andrea/fpvo). The evaluation will be performed based
+on test sets provided closer to the submission deadline.
+
+
 The source code contains MATLAB files  and clear instructions are given below to run these scripts. These MATLAB scripts are necessary to compute optical flow and centroid velocity, extract motion features and train and test classifiers. 
 2. How to run the MATLAB software?
 
