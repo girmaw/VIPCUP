@@ -1,4 +1,4 @@
-### VIP_CUP
+### 2019 IEEE Video and Image Processing (VIP) Cup
 ## Office Activity Recognition in First-person Vision 
 
 Girmaw Abebe and Andrea Cavallaro
