@@ -1,5 +1,5 @@
-## VIP_CUP
-Office Activity Recognition in First-person Vision 
+### VIP_CUP
+##Office Activity Recognition in First-person Vision 
 
 Girmaw Abebe and Andrea Cavallaro
 
@@ -35,13 +35,14 @@ on test sets provided closer to the submission deadline.
 
 
 The source code contains MATLAB files  and clear instructions are given below to run these scripts. These MATLAB scripts are necessary to compute optical flow and centroid velocity, extract motion features and train and test classifiers. 
-** 2. How to run the MATLAB software?**
+
+**2. How to run the MATLAB software?**
 
 The software has been tested on MATLAB 8.4.0.150421 (R2014b) on a PC (UBUNTU 14.04 LTS) with specifications: Intel (R) Core (TM) i7-4770 CPU @ 3.40 GHz, 16.0 GB RAM,64-bit).  The Bioinformatics Toolbox and Neural Network Toolbox  must be installed and licensed.
 Set path of MATLAB to <./PATH TO CODE>.
 Download the supporting_data and unzip it in ./PATH/ directory to replicate the results and use input examples,
 
-** 3. MATLAB files:**
+**3. MATLAB files:**
 **office_activities_classification_Mach_2019.m** –  Main script that extracts/load two types of motion features from first-person videos of office activities.
 
 NB: Running the software clears the MATLAB workspace and closes the already opened figure(s). 
@@ -61,11 +62,11 @@ NB: Running the software clears the MATLAB workspace and closes the already open
 
 
 
-4. License
+**4. License**
 This software is provided under the terms and conditions of the creative commons public license. Please refer to the file 
 <./ License.doc> for more information.
 
-5.  Contact
+**5.  Contact**
 If you have any queries, please contact girmawabebe@gmail.com
 
 
