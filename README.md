@@ -38,8 +38,7 @@ The source code contains MATLAB files  and clear instructions are given below to
 
 **2. How to run the MATLAB software?**
 
-The software has been tested on MATLAB 8.4.0.150421 (R2014b) on a PC (UBUNTU 14.04 LTS) with specifications: Intel (R) Core (TM) i7-4770 CPU @ 3.40 GHz, 16.0 GB RAM,64-bit).  The Bioinformatics Toolbox and Neural Network Toolbox  must be installed and licensed.
-Set path of MATLAB to <./PATH TO CODE>.
+The software has been tested on MATLAB 8.4.0.150421 (R2014b) on a PC (UBUNTU 14.04 LTS) with specifications: Intel (R) Core (TM) i7-4770 CPU @ 3.40 GHz, 16.0 GB RAM,64-bit).  The Bioinformatics Toolbox and Neural Network Toolbox  must be installed and licensed. Set path of MATLAB to <./PATH TO CODE>.
 Download the supporting_data and unzip it in ./PATH/ directory to replicate the results and use input examples,
 
 **3. MATLAB files:**
