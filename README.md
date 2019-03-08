@@ -1,9 +1,9 @@
 # VIP_CUP
-Office Activity Recognition in First-person Vision 
-Girmaw Abebe and Andrea Cavallaro
-Date: March  2019
-Requested citation acknowledgement when using this software: 
-Girmaw Abebe, Andrea Cavallaro and Xavier Parra, "Robust multi-dimensional motion features for first-person vision activity recognition", Computer Vision and Image Understanding, Vol. 149,  2016, pp. 229-248.
+Office Activity Recognition in First-person Vision \\
+Girmaw Abebe and Andrea Cavallaro\\
+Date: March  2019\\
+Requested citation acknowledgement when using this software: \\
+Girmaw Abebe, Andrea Cavallaro and Xavier Parra, "Robust multi-dimensional motion features for first-person vision activity recognition", Computer Vision and Image Understanding, Vol. 149,  2016, pp. 229-248.\\
 Girmaw Abebe and Andrea Cavallaro, "Hierarchical modeling for first-person vision activity recognition",    Neurocomputing, Vol. 267, 2017, pp. 362-377 . 
 
 
