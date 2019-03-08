@@ -27,19 +27,30 @@ office_activities_classification_Mach_2019.m –  Main script that extracts/load
 
 NB: Running the software clears the MATLAB workspace and closes the already opened figure(s). 
 	     Warning: You might run out of memory if you do not have at least 8GB RAM.
+	     
 GOF_computation_office.m – Function that computes grid optical flow vectors from videos
-goff_feature_extraction.m – Function that extract multiple optical-flow based features, both in time and frequency domains.
+
+goff_feature_extraction.m – Function that extract multiple optical-flow based features, both in time and frequency domains
+
 centroid_computation_office.m – Function that compute the intensity centroid per each frame 
+
 image_moments.m – Function that computes the first-order image moments that are necessary to find the intensity centroid per each frame. 
-virtual_inertial_feature_extraction.m – Function that extracts virtual inertial features from the displacement of intensity centroid across frames in a video.
-arrange_train_test_office.m– Function that takes the available data, apply train-test split, train  and test two classifiers (SVM and KNN), and return the results.
+
+virtual_inertial_feature_extraction.m – Function that extracts virtual inertial features from the displacement of intensity centroid across frames in a video
+
+arrange_train_test_office.m – Function that takes the available data, apply train-test split, train  and test two classifiers (SVM and KNN), and return the results
+
 
 
 4. License
 This software is provided under the terms and conditions of the creative commons public license. Please refer to the file 
 <./ License.doc> for more information.
+
 5.  Contact
 If you have any queries, please contact girmawabebe@gmail.com
 
+
 Thanks for your interest,
+
+
 Girmaw Abebe and Andrea Cavallaro
