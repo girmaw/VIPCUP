@@ -43,7 +43,7 @@ Download the supporting_data and unzip it in ./PATH/ directory to replicate the 
 
 **3. MATLAB files:**
 
-**office_activities_classification_Mach_2019.m** –  Main script that extracts/load two types of motion features from first-person videos of office activities.
+**office_activities_classification_March_2019.m** –  Main script that extracts/load two types of motion features from first-person videos of office activities.
 
 NB: Running the software clears the MATLAB workspace and closes the already opened figure(s). 
 <!--- Warning: You might run out of memory if you do not have at least 8GB RAM.-->
