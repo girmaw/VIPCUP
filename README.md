@@ -42,6 +42,7 @@ The software has been tested on MATLAB 8.4.0.150421 (R2014b) on a PC (UBUNTU 14.
 Download the supporting_data and unzip it in ./PATH/ directory to replicate the results and use input examples,
 
 **3. MATLAB files:**
+
 **office_activities_classification_Mach_2019.m** –  Main script that extracts/load two types of motion features from first-person videos of office activities.
 
 NB: Running the software clears the MATLAB workspace and closes the already opened figure(s). 
