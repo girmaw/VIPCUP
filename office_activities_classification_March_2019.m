@@ -57,13 +57,13 @@ numLevels=2;
 
 %% Extract (Load) grid optical flow-based features
 
-%Grid optical flow computation/ load
-if~exist('whole_data_grid_OF.mat')
-    %Get the grid optical flow
-    GOF_computation_office();
-else
-    load('whole_data_grid_OF.mat');
-end
+% %Grid optical flow computation/ load
+% if~exist('whole_data_grid_OF.mat')
+%     %Get the grid optical flow
+%     GOF_computation_office();
+% else
+%     load('whole_data_grid_OF.mat');
+% end
 
 
 
@@ -82,8 +82,10 @@ load('whole_office_goff.mat');
 if~exist('whole_data_centroid.mat')
     %Get the grid optical flow
     centroid_computation_office();
+else
+    load('whole_data_centroid.mat');
 end
-load('whole_data_centroid.mat');
+
 
 %Extract the virtual inertial features from the centroid data
 %centroid method
