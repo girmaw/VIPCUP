@@ -70,9 +70,12 @@ numLevels=2;
 %Extract grid-based optical flow features
 if~exist('whole_office_goff.mat')
     goff_feature_extraction(whole_data_grid_OF,nframes,overlapR,numBins);
+    
+else
+    load('whole_office_goff.mat');
 end
 
-load('whole_office_goff.mat');
+
 
 
 
@@ -91,8 +94,10 @@ end
 %centroid method
 if ~exist('whole_office_vif.mat')
     virtual_inertial_feature_extraction(whole_data_centroid,nframes,overlapR);
+else
+    load('whole_office_vif.mat');
 end
-load('whole_office_vif.mat');
+
 
 
 
